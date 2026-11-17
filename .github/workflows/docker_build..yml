@@ -29,7 +29,7 @@ jobs:
           context: ./
           push: true
           file: ./Dockerfile # Caminho do Dockerfile
-          tags: pratatec/webacademy:latest
+          tags: pratatec/lab03_02:latest
 
   deploy:
     runs-on: ubuntu-latest
